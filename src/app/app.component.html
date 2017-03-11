@@ -1,0 +1,42 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">MyDWallet</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="home" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="sendether" href="/">SendEther</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="history" href="/">History</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" routerLink="permission" href="/">Permission</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--<header class="l-header v-center-parent">
+   
+
+         <ul class="top-menu disable-text-selection" >
+             <li class="menu-entry">
+                 <a routerLink="home" href="/">Home</a>
+             </li>
+              <li class="menu-entry">
+                 <a routerLink="history" href="/">History</a>
+             </li>
+        </ul>
+</header>-->
+
+<router-outlet></router-outlet>
+
+<!--<h1>
+  {{title}}
+</h1>-->
